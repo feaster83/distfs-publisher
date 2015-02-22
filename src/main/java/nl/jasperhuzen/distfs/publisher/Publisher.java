@@ -49,14 +49,22 @@ public class Publisher {
     }
 
     public Publisher(ESContext esContext, String sourceDir) {
-        if (!sourceDir.endsWith("/")) {
-            sourceDir += "/";
-        }
+        sourceDir = fixSourceDirArgument(sourceDir);
         this.sourceDir = sourceDir;
         this.esContext = esContext;
 
         fileIdMap = new TreeMap<>();
         urlIdMap = new TreeMap<>();
+    }
+
+    private String fixSourceDirArgument(String sourceDir) {
+        if (sourceDir.startsWith("~" + File.separator)) {
+            sourceDir = System.getProperty("user.home") + sourceDir.substring(1);
+        }
+        if (!sourceDir.endsWith("/")) {
+            sourceDir += "/";
+        }
+        return sourceDir;
     }
 
     public void publish() {
@@ -159,6 +167,7 @@ public class Publisher {
         String fileId = getFileId(fileUrl, file);
         log.debug("ID: {}", fileId);
 
+        fileUrl = fileUrl.replaceAll(" ", "%20");
         urlIdMap.put(fileUrl, fileId);
         fileIdMap.put(file, fileId);
     }
