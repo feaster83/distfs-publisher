@@ -168,6 +168,7 @@ public class Publisher {
         log.debug("ID: {}", fileId);
 
         fileUrl = fileUrl.replaceAll(" ", "%20");
+
         urlIdMap.put(fileUrl, fileId);
         fileIdMap.put(file, fileId);
     }
@@ -178,7 +179,9 @@ public class Publisher {
 
 
     private String getFileId(String fileUrl, String file) {
-        return fileUrl.replaceAll("/", "_").replaceAll(" ", "_");
+        return fileUrl.replaceAll(" ", "_");
+
+       // return fileUrl.replaceAll("/", "_").replaceAll(" ", "_");
     }
 
     public List<String> generateFileList(Path directory, List<String> fileList) {
