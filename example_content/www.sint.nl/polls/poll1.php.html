@@ -1,0 +1,42 @@
+<HTML lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>poll</title>
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript">
+    <!--
+	function pollSystemObj()
+	{
+		var now = new Date();
+		var hour = now.getHours();
+		var minute = now.getMinutes();
+		var second = now.getSeconds();
+		var timeString = hour +	'_' + minute + '_' + second;
+		// create player swf object
+		// <![CDATA[
+		var fo = new FlashObject("http://www.sint.nl/polls/poll.swf?xml=config1.xml&xyz=xyz1.xml&timeString", "poll", "250", "600", 7);
+		fo.write("pollDiv2");
+		// ]]>
+	}
+	-->
+</script>
+
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style></head>
+<body onload = "pollSystemObj();">
+<table align="left" cellpadding="2">
+  <tr>
+    <td><div id = "pollDiv2" style="width:100%;height:100%"></div></td>
+  </tr>
+</table>
+
+</body>
+</html>

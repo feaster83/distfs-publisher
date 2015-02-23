@@ -1,0 +1,855 @@
+/*============================
+Rouned blocks - style
+============================*/
+/*defaults */
+.rb_content, .rb_t, .rb_b, .rb_b div {
+ background:transparent url("4_4_b.png") no-repeat top right;
+}
+
+.rb__ .rb_content,.rb__ .rb_t,.rb__ .rb_b,.rb__ .rb_b div,
+.rb_4_ .rb_content,.rb_4_ .rb_t,.rb_4_ .rb_b,.rb_4_ .rb_b div  {
+background-image: url("4_4_b.png");
+_background-image:url("4_4_b.gif");
+}
+/*1. Rounded shadow*/
+.rb_1_1 .rb_content,.rb_1_1 .rb_t,.rb_1_1 .rb_b,.rb_1_1 .rb_b div {
+background-image: url("1_1_b.png");
+_background-image:url("1_1_b.gif");
+}.rb_1_2 .rb_content,.rb_1_2 .rb_t,.rb_1_2 .rb_b,.rb_1_2 .rb_b div {
+background-image: url("1_2_b.png");
+_background-image:url("1_2_b.gif");
+}.rb_1_3 .rb_content,.rb_1_3 .rb_t,.rb_1_3 .rb_b,.rb_1_3 .rb_b div {
+background-image: url("1_3_b.png");
+_background-image:url("1_3_b.gif");
+}.rb_1_4 .rb_content,.rb_1_4 .rb_t,.rb_1_4 .rb_b,.rb_1_4 .rb_b div {
+background-image: url("1_4_b.png");
+_background-image:url("1_4_b.gif");
+}.rb_1_5 .rb_content,.rb_1_5 .rb_t,.rb_1_5 .rb_b,.rb_1_5 .rb_b div {
+background-image: url("1_5_b.png");
+_background-image:url("1_5_b.gif");
+}.rb_1_6 .rb_content,.rb_1_6 .rb_t,.rb_1_6 .rb_b,.rb_1_6 .rb_b div {
+background-image: url("1_6_b.png");
+_background-image:url("1_6_b.gif");
+}.rb_1_7 .rb_content,.rb_1_7 .rb_t,.rb_1_7 .rb_b,.rb_1_7 .rb_b div {
+background-image: url("1_7_b.png");
+_background-image:url("1_7_b.gif");
+}.rb_1_8 .rb_content,.rb_1_8 .rb_t,.rb_1_8 .rb_b,.rb_1_8 .rb_b div {
+background-image: url("1_8_b.png");
+_background-image:url("1_8_b.gif");
+}.rb_1_9 .rb_content,.rb_1_9 .rb_t,.rb_1_9 .rb_b,.rb_1_9 .rb_b div {
+background-image: url("1_9_b.png");
+_background-image:url("1_9_b.gif");
+}.rb_1_10 .rb_content,.rb_1_10 .rb_t,.rb_1_10 .rb_b,.rb_1_10 .rb_b div {
+background-image: url("1_10_b.png");
+_background-image:url("1_10_b.gif");
+}.rb_1_11 .rb_content,.rb_1_11 .rb_t,.rb_1_11 .rb_b,.rb_1_11 .rb_b div {
+background-image: url("1_11_b.png");
+_background-image:url("1_11_b.gif");
+}.rb_1_12 .rb_content,.rb_1_12 .rb_t,.rb_1_12 .rb_b,.rb_1_12 .rb_b div {
+background-image: url("1_12_b.png");
+_background-image:url("1_12_b.gif");
+}.rb_1_13 .rb_content,.rb_1_13 .rb_t,.rb_1_13 .rb_b,.rb_1_13 .rb_b div {
+background-image: url("1_13_b.png");
+_background-image:url("1_13_b.gif");
+}.rb_1_14 .rb_content,.rb_1_14 .rb_t,.rb_1_14 .rb_b,.rb_1_14 .rb_b div {
+background-image: url("1_14_b.png");
+_background-image:url("1_14_b.gif");
+}.rb_1_15 .rb_content,.rb_1_15 .rb_t,.rb_1_15 .rb_b,.rb_1_15 .rb_b div {
+background-image: url("1_15_b.png");
+_background-image:url("1_15_b.gif");
+}.rb_1_16 .rb_content,.rb_1_16 .rb_t,.rb_1_16 .rb_b,.rb_1_16 .rb_b div {
+background-image: url("1_16_b.png");
+_background-image:url("1_16_b.gif");
+}.rb_1_17 .rb_content,.rb_1_17 .rb_t,.rb_1_17 .rb_b,.rb_1_17 .rb_b div {
+background-image: url("1_17_b.png");
+_background-image:url("1_17_b.gif");
+}.rb_1_18 .rb_content,.rb_1_18 .rb_t,.rb_1_18 .rb_b,.rb_1_18 .rb_b div {
+background-image: url("1_18_b.png");
+_background-image:url("1_18_b.gif");
+}
+/*2. Rounded no shadow - reserved*/
+.rb_2_ .rb_content,.rb_2_ .rb_t,.rb_2_ .rb_b,.rb_2_ .rb_b div,
+.rb_2_1 .rb_content,.rb_2_1 .rb_t,.rb_2_1 .rb_b,.rb_2_1 .rb_b div {
+background-image: url("2_1_b.png");
+_background-image:url("2_1_b.gif");
+}.rb_2_2 .rb_content,.rb_2_2 .rb_t,.rb_2_2 .rb_b,.rb_2_2 .rb_b div {
+background-image: url("2_2_b.png");
+_background-image:url("2_2_b.gif");
+}.rb_2_3 .rb_content,.rb_2_3 .rb_t,.rb_2_3 .rb_b,.rb_2_3 .rb_b div {
+background-image: url("2_3_b.png");
+_background-image:url("2_3_b.gif");
+}.rb_2_4 .rb_content,.rb_2_4 .rb_t,.rb_2_4 .rb_b,.rb_2_4 .rb_b div {
+background-image: url("2_4_b.png");
+_background-image:url("2_4_b.gif");
+}.rb_2_5 .rb_content,.rb_2_5 .rb_t,.rb_2_5 .rb_b,.rb_2_5 .rb_b div {
+background-image: url("2_5_b.png");
+_background-image:url("2_5_b.gif");
+}.rb_2_6 .rb_content,.rb_2_6 .rb_t,.rb_2_6 .rb_b,.rb_2_6 .rb_b div {
+background-image: url("2_6_b.png");
+_background-image:url("2_6_b.gif");
+}.rb_2_7 .rb_content,.rb_2_7 .rb_t,.rb_2_7 .rb_b,.rb_2_7 .rb_b div {
+background-image: url("2_7_b.png");
+_background-image:url("2_7_b.gif");
+}.rb_2_8 .rb_content,.rb_2_8 .rb_t,.rb_2_8 .rb_b,.rb_2_8 .rb_b div {
+background-image: url("2_8_b.png");
+_background-image:url("2_8_b.gif");
+}.rb_2_9 .rb_content,.rb_2_9 .rb_t,.rb_2_9 .rb_b,.rb_2_9 .rb_b div {
+background-image: url("2_9_b.png");
+_background-image:url("2_9_b.gif");
+}.rb_2_10 .rb_content,.rb_2_10 .rb_t,.rb_2_10 .rb_b,.rb_2_10 .rb_b div {
+background-image: url("2_10_b.png");
+_background-image:url("2_10_b.gif");
+}.rb_2_11 .rb_content,.rb_2_11 .rb_t,.rb_2_11 .rb_b,.rb_2_11 .rb_b div {
+background-image: url("2_11_b.png");
+_background-image:url("2_11_b.gif");
+}.rb_2_12 .rb_content,.rb_2_12 .rb_t,.rb_2_12 .rb_b,.rb_2_12 .rb_b div {
+background-image: url("2_12_b.png");
+_background-image:url("2_12_b.gif");
+}.rb_2_13 .rb_content,.rb_2_13 .rb_t,.rb_2_13 .rb_b,.rb_2_13 .rb_b div {
+background-image: url("2_13_b.png");
+_background-image:url("2_13_b.gif");
+}.rb_2_14 .rb_content,.rb_2_14 .rb_t,.rb_2_14 .rb_b,.rb_2_14 .rb_b div {
+background-image: url("2_14_b.png");
+_background-image:url("2_14_b.gif");
+}.rb_2_15 .rb_content,.rb_2_15 .rb_t,.rb_2_15 .rb_b,.rb_2_15 .rb_b div {
+background-image: url("2_15_b.png");
+_background-image:url("2_15_b.gif");
+}.rb_2_16 .rb_content,.rb_2_16 .rb_t,.rb_2_16 .rb_b,.rb_2_16 .rb_b div {
+background-image: url("2_16_b.png");
+_background-image:url("2_16_b.gif");
+}.rb_2_17 .rb_content,.rb_2_17 .rb_t,.rb_2_17 .rb_b,.rb_2_17 .rb_b div {
+background-image: url("2_17_b.png");
+_background-image:url("2_17_b.gif");
+}.rb_2_18 .rb_content,.rb_2_18 .rb_t,.rb_2_18 .rb_b,.rb_2_18 .rb_b div {
+background-image: url("2_18_b.png");
+_background-image:url("2_18_b.gif");
+}
+/*3. Box Box*/
+.rb_3_ .rb_content,.rb_3_ .rb_t,.rb_3_ .rb_b,.rb_3_ .rb_b div, 
+.rb_3_1 .rb_content,.rb_3_1 .rb_t,.rb_3_1 .rb_b,.rb_3_1 .rb_b div {
+background-image:url("3_1_b.gif");
+}.rb_3_2 .rb_content,.rb_3_2 .rb_t,.rb_3_2 .rb_b,.rb_3_2 .rb_b div {
+background-image:url("3_2_b.gif");
+}.rb_3_3 .rb_content,.rb_3_3 .rb_t,.rb_3_3 .rb_b,.rb_3_3 .rb_b div {
+background-image:url("3_3_b.gif");
+}.rb_3_4 .rb_content,.rb_3_4 .rb_t,.rb_3_4 .rb_b,.rb_3_4 .rb_b div {
+background-image:url("3_4_b.gif");
+}.rb_3_5 .rb_content,.rb_3_5 .rb_t,.rb_3_5 .rb_b,.rb_3_5 .rb_b div {
+background-image:url("3_5_b.gif");
+}.rb_3_6 .rb_content,.rb_3_6 .rb_t,.rb_3_6 .rb_b,.rb_3_6 .rb_b div {
+background-image:url("3_6_b.gif");
+}.rb_3_7 .rb_content,.rb_3_7 .rb_t,.rb_3_7 .rb_b,.rb_3_7 .rb_b div {
+background-image:url("3_7_b.gif");
+}.rb_3_8 .rb_content,.rb_3_8 .rb_t,.rb_3_8 .rb_b,.rb_3_8 .rb_b div {
+background-image:url("3_8_b.gif");
+}.rb_3_9 .rb_content,.rb_3_9 .rb_t,.rb_3_9 .rb_b,.rb_3_9 .rb_b div {
+background-image:url("3_9_b.gif");
+}.rb_3_10 .rb_content,.rb_3_10 .rb_t,.rb_3_10 .rb_b,.rb_3_10 .rb_b div {
+background-image:url("3_10_b.gif");
+}.rb_3_11 .rb_content,.rb_3_11 .rb_t,.rb_3_11 .rb_b,.rb_3_11 .rb_b div {
+background-image:url("3_11_b.gif");
+}.rb_3_12 .rb_content,.rb_3_12 .rb_t,.rb_3_12 .rb_b,.rb_3_12 .rb_b div {
+background-image:url("3_12_b.gif");
+}.rb_3_13 .rb_content,.rb_3_13 .rb_t,.rb_3_13 .rb_b,.rb_3_13 .rb_b div {
+background-image:url("3_13_b.gif");
+}.rb_3_14 .rb_content,.rb_3_14 .rb_t,.rb_3_14 .rb_b,.rb_3_14 .rb_b div {
+background-image:url("3_14_b.gif");
+}.rb_3_15 .rb_content,.rb_3_15 .rb_t,.rb_3_15 .rb_b,.rb_3_15 .rb_b div {
+background-image:url("3_15_b.gif");
+}.rb_3_16 .rb_content,.rb_3_16 .rb_t,.rb_3_16 .rb_b,.rb_3_16 .rb_b div {
+background-image:url("3_16_b.gif");
+}.rb_3_17 .rb_content,.rb_3_17 .rb_t,.rb_3_17 .rb_b,.rb_3_17 .rb_b div {
+background-image:url("3_17_b.gif");
+}.rb_3_18 .rb_content,.rb_3_18 .rb_t,.rb_3_18 .rb_b,.rb_3_18 .rb_b div {
+background-image:url("3_18_b.gif");
+}
+/*4. Rounded glossy */
+.rb_4_ .rb_content,.rb_4_ .rb_t,.rb_4_ .rb_b,.rb_4_ .rb_b div,
+.rb_4_1 .rb_content,.rb_4_1 .rb_t,.rb_4_1 .rb_b,.rb_4_1 .rb_b div {
+background-image: url("4_1_b.png");
+_background-image:url("4_1_b.gif");
+}.rb_4_2 .rb_content,.rb_4_2 .rb_t,.rb_4_2 .rb_b,.rb_4_2 .rb_b div {
+background-image: url("4_2_b.png");
+_background-image:url("4_2_b.gif");
+}.rb_4_3 .rb_content,.rb_4_3 .rb_t,.rb_4_3 .rb_b,.rb_4_3 .rb_b div {
+background-image: url("4_3_b.png");
+_background-image:url("4_3_b.gif");
+}.rb_4_4 .rb_content,.rb_4_4 .rb_t,.rb_4_4 .rb_b,.rb_4_4 .rb_b div {
+background-image: url("4_4_b.png");
+_background-image:url("4_4_b.gif");
+}.rb_4_5 .rb_content,.rb_4_5 .rb_t,.rb_4_5 .rb_b,.rb_4_5 .rb_b div {
+background-image: url("4_5_b.png");
+_background-image:url("4_5_b.gif");
+}.rb_4_6 .rb_content,.rb_4_6 .rb_t,.rb_4_6 .rb_b,.rb_4_6 .rb_b div {
+background-image: url("4_6_b.jpg");
+_background-image:url("4_6_b.jpg");
+}.rb_4_7 .rb_content,.rb_4_7 .rb_t,.rb_4_7 .rb_b,.rb_4_7 .rb_b div {
+background-image: url("4_7_b.jpg");
+_background-image:url("4_7_b.jpg");
+}.rb_4_8 .rb_content,.rb_4_8 .rb_t,.rb_4_8 .rb_b,.rb_4_8 .rb_b div {
+background-image: url("4_8_b.jpg");
+_background-image:url("4_8_b.jpg");
+}.rb_4_9 .rb_content,.rb_4_9 .rb_t,.rb_4_9 .rb_b,.rb_4_9 .rb_b div {
+background-image: url("http://www.sint.nl/rw_common/themes/blocksbox/css/add_to_assets/4_9_b.jpg");
+_background-image:url("http://www.sint.nl/rw_common/themes/blocksbox/css/add_to_assets/4_9_b.jpg");
+}.rb_4_10 .rb_content,.rb_4_10 .rb_t,.rb_4_10 .rb_b,.rb_4_10 .rb_b div {
+background-image: url("4_10_b.png");
+_background-image:url("4_10_b.gif");
+}.rb_4_11 .rb_content,.rb_4_11 .rb_t,.rb_4_11 .rb_b,.rb_4_11 .rb_b div {
+background-image: url("4_11_b.png");
+_background-image:url("4_11_b.gif");
+}.rb_4_12 .rb_content,.rb_4_12 .rb_t,.rb_4_12 .rb_b,.rb_4_12 .rb_b div {
+background-image: url("4_12_b.png");
+_background-image:url("4_12_b.gif");
+}.rb_4_13 .rb_content,.rb_4_13 .rb_t,.rb_4_13 .rb_b,.rb_4_13 .rb_b div {
+background-image: url("4_13_b.png");
+_background-image:url("4_13_b.gif");
+}.rb_4_14 .rb_content,.rb_4_14 .rb_t,.rb_4_14 .rb_b,.rb_4_14 .rb_b div {
+background-image: url("4_14_b.png");
+_background-image:url("4_14_b.gif");
+}.rb_4_15 .rb_content,.rb_4_15 .rb_t,.rb_4_15 .rb_b,.rb_4_15 .rb_b div {
+background-image: url("4_15_b.png");
+_background-image:url("4_15_b.gif");
+}.rb_4_16 .rb_content,.rb_4_16 .rb_t,.rb_4_16 .rb_b,.rb_4_16 .rb_b div {
+background-image: url("4_16_b.png");
+_background-image:url("4_16_b.gif");
+}.rb_4_17 .rb_content,.rb_4_17 .rb_t,.rb_4_17 .rb_b,.rb_4_17 .rb_b div {
+background-image: url("4_17_b.png");
+_background-image:url("4_17_b.gif");
+}.rb_4_18 .rb_content,.rb_4_18 .rb_t,.rb_4_18 .rb_b,.rb_4_18 .rb_b div {
+background-image: url("4_18_b.png");
+_background-image:url("4_18_b.gif");
+}
+/*osx box*/
+.rb_5_ .rb_content,.rb_5_ .rb_t,.rb_5_ .rb_b,.rb_5_ .rb_b div,
+.rb_5_1 .rb_content,.rb_5_1 .rb_t,.rb_5_1 .rb_b,.rb_5_1 .rb_b div,
+.rb_5_2 .rb_content,.rb_5_2 .rb_t,.rb_5_2 .rb_b,.rb_5_2 .rb_b div,
+.rb_5_3 .rb_content,.rb_5_3 .rb_t,.rb_5_3 .rb_b,.rb_5_3 .rb_b div,
+.rb_5_4 .rb_content,.rb_5_4 .rb_t,.rb_5_4 .rb_b,.rb_5_4 .rb_b div,
+.rb_5_5 .rb_content,.rb_5_5 .rb_t,.rb_5_5 .rb_b,.rb_5_5 .rb_b div,
+.rb_5_6 .rb_content,.rb_5_6 .rb_t,.rb_5_6 .rb_b,.rb_5_6 .rb_b div,
+.rb_5_7 .rb_content,.rb_5_7 .rb_t,.rb_5_7 .rb_b,.rb_5_7 .rb_b div,
+.rb_5_8 .rb_content,.rb_5_8 .rb_t,.rb_5_8 .rb_b,.rb_5_8 .rb_b div,
+.rb_5_9 .rb_content,.rb_5_9 .rb_t,.rb_5_9 .rb_b,.rb_5_9 .rb_b div,
+.rb_5_10 .rb_content,.rb_5_10 .rb_t,.rb_5_10 .rb_b,.rb_5_10 .rb_b div,
+.rb_5_11 .rb_content,.rb_5_11 .rb_t,.rb_5_11 .rb_b,.rb_5_11 .rb_b div,
+.rb_5_12 .rb_content,.rb_5_12 .rb_t,.rb_5_12 .rb_b,.rb_5_12 .rb_b div,
+.rb_5_13 .rb_content,.rb_5_13 .rb_t,.rb_5_13 .rb_b,.rb_5_13 .rb_b div,
+.rb_5_14 .rb_content,.rb_5_14 .rb_t,.rb_5_14 .rb_b,.rb_5_14 .rb_b div,
+.rb_5_15 .rb_content,.rb_5_15 .rb_t,.rb_5_15 .rb_b,.rb_5_15 .rb_b div,
+.rb_5_16 .rb_content,.rb_5_16 .rb_t,.rb_5_16 .rb_b,.rb_5_16 .rb_b div,
+.rb_5_17 .rb_content,.rb_5_17 .rb_t,.rb_5_17 .rb_b,.rb_5_17 .rb_b div,
+.rb_5_18 .rb_content,.rb_5_18 .rb_t,.rb_5_18 .rb_b,.rb_5_18 .rb_b div  {
+background-image: url("5_1_b.png");
+_background-image:url("5_1_b.gif");
+}
+
+/*============================
+Rouned blocks - Base
+Base from
+http://www.schillmania.com/content/projects/even-more-rounded-corners/
+============================*/
+
+.rb_wrapper {
+ position:relative;
+ margin:0px auto;
+ z-index:1;
+ margin-left:28px; /* default, width of left corner */
+ margin-bottom:0.5em; /* spacing under dialog */
+}
+
+.rb_wrapper .rb_content {
+ position:relative;
+ zoom:1;
+ _overflow-y:hidden;
+ padding:0px 28px 0px 0px;
+}
+
+.rb_wrapper .rb_t {
+ /* top+left vertical slice */
+ position:absolute;
+ left:0px;
+ top:0px;
+ width:28px; /* top slice width */
+ margin-left:-28px;
+ height:100%;
+ _height:1600px; /* arbitrary long height, IE 6 */
+ background-position:top left;
+}
+
+.rb_wrapper .rb_b {
+ /* bottom */
+ position:relative;
+ width:100%;
+}
+
+.rb_wrapper .rb_b,
+.rb_wrapper .rb_b div {
+ height:35px; /* height of bottom cap/shade */
+ font-size:1px;
+}
+
+.rb_37 .rb_b,
+.rb_37 .rb_b div {
+ height:50px; /* height of bottom cap/shade */
+ font-size:1px;
+}
+
+.rb_wrapper .rb_b {
+ background-position:bottom right;
+}
+
+.rb_wrapper .rb_b div {
+ position:relative;
+ width:28px; /* bottom corner width */
+ margin-left:-28px;
+ background-position:bottom left;
+}
+
+.rb_wrapper .rb_hd,
+.rb_wrapper .rb_bd,
+.rb_wrapper .rb_ft {
+ position:relative;
+}
+
+.rb_wrapper h1,
+.rb_wrapper p {
+ margin:0px; /* margins will blow out backgrounds, leaving whitespace. */
+ padding:0.5em 0px 0.5em 0px;
+}
+
+.rb_wrapper h1 {
+ padding-bottom:0px;
+}
+.rb_content {
+z-index: 200;
+}
+.rb_b, .rb_b div {
+z-index: -200;
+}
+/*End Rounded blocks*/
+
+
+
+
+
+
+/*============================
+Collapsable block - base style
+============================*/
+.db_infoboxWrapper {
+	padding: 0px;}
+
+.db_infoboxWrapper .rbheading{
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	/*z-index: 20;*/
+	top: 11px;
+	/*padding-top: 10px;*/
+	margin-top: 0px;
+	padding-left: 20px;
+	
+	/*for IE6 to fix z-index*/
+	_height: 30px;
+	_background-position: left 50%;
+}
+.db_infoboxContent {
+	overflow: hidden;
+	margin-top: 20px;/*also set in mooefx*/
+	position: relative;
+	/*top: 20px;*/
+	display: none;
+}
+/*For html/css only block*/
+.db_css .db_infoboxWrapper .rbheading{
+	top: 0;
+	padding: 5px;
+	padding-left: 20px;
+	margin-left: 20px;
+	background-position: left 50%;
+	_background-position: left 25%;
+}
+.db_css .db_infoboxContent{
+	padding: 0 10px 0 10px;
+	margin: 0;
+}
+
+
+/*============================
+Menu block - base style
+============================*/
+.nav_spacer{
+	height: 30px;
+}
+/* Parent - Level 0 */
+.navcontainer {
+	/*padding-top: 10px;*/
+	margin: 10px 0 0 4px;
+	position: absolute;
+	z-index: 4000;
+	line-height:36px;
+	height: 36px;
+}
+.navcontainer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height:36px;
+}
+
+.navcontainer li {
+	z-index: 40;
+	position: relative;
+	display: inline;
+	float: left;
+	vertical-align:middle; 
+}
+
+.navcontainer a {
+	display: block;
+	/*margin: 0.5em 1em 1em 0;
+	padding: 0em 1em 0 0;*/
+	text-decoration: none;
+	border-right: 1px solid transparent;
+	padding: 0 17px 0 0;
+	margin: 0 17px 0 0;
+}
+rb_wrapper .navcontainer a, .rb_wrapper .navcontainer a:hover, .rb_wrapper .navcontainer li:hover{
+	background-color: transparent!important;
+}
+
+.menuWrap{
+position: absolute;
+bottom: 0;
+}
+
+/* Child - Level 1 */
+/* All browsers will use this code, it will make the pop out menus work */
+.navcontainer ul ul {
+	position: absolute;
+	top: 36px;
+	left: -27px;
+	padding: 0;
+	display: none;
+	z-index: -5;
+	font-size: 80%;
+	background: no-repeat bottom left;
+	width: 176px;
+	line-height: normal!important;
+	overflow: hidden;
+}
+
+.navcontainer ul ul li {
+	display: block;
+}
+
+.navcontainer ul ul a {
+	padding:  0;
+	margin: 0;
+	border:  none;
+	display: block;
+	padding: 10px 0 0px 1em;/*need to use px as mootools struggles with ems*/
+	margin: 0 9px 0 8px;
+width: 176px;
+}
+
+.navcontainer ul ul a:hover {
+}
+
+/*Turns off level three and byond*/
+.navcontainer ul ul ul{
+visibility: hidden!important;
+display: none!important;
+}
+
+/*================
+CSS navigation
+==================*/
+.nav_css .navcontainer ul ul a {
+padding: 15px 0 0 0;
+margin: 0;
+line-height: normal;
+}
+.nav_css .navcontainer {
+	padding: 0;
+	margin: 0;
+}
+.nav_css .navcontainer a {
+	padding: 0.5em 2em 0.5em 0;
+	margin: 0 1px 0 0px;
+	
+	border: none;
+	border-bottom: 4px solid black;
+}
+html>body .nav_css .navcontainer a{
+	height: 1.5em;/*this style is not IE6's friend*/
+}
+.nav_css .navcontainer ul ul {
+	top: 2.7em;
+	_top: 4.5em;
+	left: 0px;
+	width: 176px;
+	padding: 0;
+	margin: 0.5em 0 0 0;
+	background-color: blue;
+}
+.nav_css .navcontainer ul ul a {
+	border-bottom: 1px solid;
+	margin: 0em 0 0 0px;
+	padding-left: 0px;
+	width: 176px;
+}
+
+/*================
+Sub menu
+==================*/
+.rb_submenu ul{
+padding: 0;
+margin: 0;
+list-style: none!important;
+}
+.rb_submenu li{
+visibility: hidden;
+display: none;
+}
+/*Shows current, hides children, shows grandparent*/
+.rb_submenu .currentParent li{
+display: block;
+visibility: visible;
+}
+.rb_submenu .currentParent ul li{
+visibility: hidden;
+display: none;
+}
+.rb_submenu li.grandParent {
+display: block;
+}
+/*style*/
+.rb_submenu li a {
+padding-left: 15px;
+text-decoration:none;
+}
+.rb_submenu li a:hover {
+background: none;
+}
+.rb_submenu #current {
+}
+
+.rb_submenu .arrowOnTheMove {
+position: absolute;
+top: 20px;
+height: 20px;
+width: 20px;
+background:url("arrowClosed.gif") left center no-repeat;
+}
+
+
+/*================
+Arrow
+==================*/
+.arrow_1 .rbheading, .arrow_ .rbheading, .rb_submenu.arrow_ .arrowOnTheMove, .rb_submenu.arrow_1 .arrowOnTheMove{
+	background:url("arrowClosed.gif") left center no-repeat;
+}.arrow_1 .hover, .arrow_ .hover{
+	background-image:url("arrowOpen.gif")!important;
+}
+.arrow_2 .rbheading, .rb_submenu.arrow_2 .arrowOnTheMove{
+	background:url("arrowClosed2.gif") left center no-repeat;
+}.arrow_2 .hover{
+	background-image:url("arrowOpen2.gif")!important;
+}
+.arrow_3 .rbheading{
+	padding-left: 0px;
+}
+.db_css .arrow_3 .rbheading{
+	padding-left: 0px!important;
+	margin-left: 10px!important;
+}
+
+
+
+/*================
+Navigation add on styles
+==================*/
+/*defaults */
+.rb__ .navcontainer ul ul {
+background-image: url("4_4_m.png");
+_background-image: url("4_4_m.gif");
+}
+/*1. Rounded shadow*/
+.rb_1_ .navcontainer ul ul,
+.rb_1_1 .navcontainer ul ul {
+background-image: url("1_1_m.png");
+_background-image: url("1_1_m.gif");
+}.rb_1_2 .navcontainer ul ul {
+background-image: url("1_2_m.png");
+_background-image: url("1_2_m.gif");
+}.rb_1_3 .navcontainer ul ul {
+background-image: url("1_3_m.png");
+_background-image: url("1_3_m.gif");
+}.rb_1_4 .navcontainer ul ul {
+background-image: url("1_4_m.png");
+_background-image: url("1_4_m.gif");
+}.rb_1_5 .navcontainer ul ul {
+background-image: url("1_5_m.png");
+_background-image: url("1_5_m.gif");
+}.rb_1_6 .navcontainer ul ul {
+background-image: url("1_6_m.png");
+_background-image: url("1_6_m.gif");
+}.rb_1_7 .navcontainer ul ul {
+background-image: url("1_7_m.png");
+_background-image: url("1_7_m.gif");
+}.rb_1_8 .navcontainer ul ul {
+background-image: url("1_8_m.png");
+_background-image: url("1_8_m.gif");
+}.rb_1_9 .navcontainer ul ul {
+background-image: url("1_9_m.png");
+_background-image: url("1_9_m.gif");
+}.rb_1_10 .navcontainer ul ul {
+background-image: url("1_10_m.png");
+_background-image: url("1_10_m.gif");
+}.rb_1_11 .navcontainer ul ul {
+background-image: url("1_11_m.png");
+_background-image: url("1_11_m.gif");
+}.rb_1_12 .navcontainer ul ul {
+background-image: url("1_12_m.png");
+_background-image: url("1_12_m.gif");
+}.rb_1_13 .navcontainer ul ul {
+background-image: url("1_13_m.png");
+_background-image: url("1_13_m.gif");
+}.rb_1_14 .navcontainer ul ul {
+background-image: url("1_14_m.png");
+_background-image: url("1_14_m.gif");
+}.rb_1_15 .navcontainer ul ul {
+background-image: url("1_15_m.png");
+_background-image: url("1_15_m.gif");
+}.rb_1_16 .navcontainer ul ul {
+background-image: url("1_16_m.png");
+_background-image: url("1_16_m.gif");
+}.rb_1_17 .navcontainer ul ul {
+background-image: url("1_17_m.png");
+_background-image: url("1_17_m.gif");
+}.rb_1_18 .navcontainer ul ul {
+background-image: url("1_18_m.png");
+_background-image: url("1_18_m.gif");
+}
+
+/*2. Rounded no shadow - reserved*/
+.rb_2_ .navcontainer ul ul,
+.rb_2_1 .navcontainer ul ul {
+background-image: url("2_1_m.png");
+_background-image: url("2_1_m.gif");
+}.rb_2_2 .navcontainer ul ul {
+background-image: url("2_2_m.png");
+_background-image: url("2_2_m.gif");
+}.rb_2_3 .navcontainer ul ul {
+background-image: url("2_3_m.png");
+_background-image: url("2_3_m.gif");
+}.rb_2_4 .navcontainer ul ul {
+background-image: url("2_4_m.png");
+_background-image: url("2_4_m.gif");
+}.rb_2_5 .navcontainer ul ul {
+background-image: url("2_5_m.png");
+_background-image: url("2_5_m.gif");
+}.rb_2_6 .navcontainer ul ul {
+background-image: url("2_6_m.png");
+_background-image: url("2_6_m.gif");
+}.rb_2_7 .navcontainer ul ul {
+background-image: url("2_7_m.png");
+_background-image: url("2_7_m.gif");
+}.rb_2_8 .navcontainer ul ul {
+background-image: url("2_8_m.png");
+_background-image: url("2_8_m.gif");
+}.rb_2_9 .navcontainer ul ul {
+background-image: url("2_9_m.png");
+_background-image: url("2_9_m.gif");
+}.rb_2_10 .navcontainer ul ul {
+background-image: url("2_10_m.png");
+_background-image: url("2_10_m.gif");
+}.rb_2_11 .navcontainer ul ul {
+background-image: url("2_11_m.png");
+_background-image: url("2_11_m.gif");
+}.rb_2_12 .navcontainer ul ul {
+background-image: url("2_12_m.png");
+_background-image: url("2_12_m.gif");
+}.rb_2_13 .navcontainer ul ul {
+background-image: url("2_13_m.png");
+_background-image: url("2_13_m.gif");
+}.rb_2_14 .navcontainer ul ul {
+background-image: url("2_14_m.png");
+_background-image: url("2_14_m.gif");
+}.rb_2_15 .navcontainer ul ul {
+background-image: url("2_15_m.png");
+_background-image: url("2_15_m.gif");
+}.rb_2_16 .navcontainer ul ul {
+background-image: url("2_16_m.png");
+_background-image: url("2_16_m.gif");
+}.rb_2_17 .navcontainer ul ul {
+background-image: url("2_17_m.png");
+_background-image: url("2_17_m.gif");
+}.rb_2_18 .navcontainer ul ul {
+background-image: url("2_18_m.png");
+_background-image: url("2_18_m.gif");
+}
+/*3. Box Box*/
+.rb_3_ .navcontainer ul ul,
+.rb_3_1 .navcontainer ul ul {
+background-image: url("3_1_m.gif");
+}.rb_3_2 .navcontainer ul ul {
+background-image: url("3_2_m.gif");
+}.rb_3_3 .navcontainer ul ul {
+background-image: url("3_3_m.gif");
+}.rb_3_4 .navcontainer ul ul {
+background-image: url("3_4_m.gif");
+}.rb_3_5 .navcontainer ul ul {
+background-image: url("3_5_m.gif");
+}.rb_3_6 .navcontainer ul ul {
+background-image: url("3_6_m.gif");
+}.rb_3_7 .navcontainer ul ul {
+background-image: url("3_7_m.gif");
+}.rb_3_8 .navcontainer ul ul {
+background-image: url("3_8_m.gif");
+}.rb_3_9 .navcontainer ul ul {
+background-image: url("3_9_m.gif");
+}.rb_3_10 .navcontainer ul ul {
+background-image: url("3_10_m.gif");
+}.rb_3_11 .navcontainer ul ul {
+background-image: url("3_11_m.gif");
+}.rb_3_12 .navcontainer ul ul {
+background-image: url("3_12_m.gif");
+}.rb_3_13 .navcontainer ul ul {
+background-image: url("3_13_m.gif");
+}.rb_3_14 .navcontainer ul ul {
+background-image: url("3_14_m.gif");
+}.rb_3_15 .navcontainer ul ul {
+background-image: url("3_15_m.gif");
+}.rb_3_16 .navcontainer ul ul {
+background-image: url("3_16_m.gif");
+}.rb_3_17 .navcontainer ul ul {
+background-image: url("3_17_m.gif");
+}.rb_3_18 .navcontainer ul ul {
+background-image: url("3_18_m.gif");
+}
+.rb_3_1 .navcontainer ul ul,
+.rb_3_2 .navcontainer ul ul,
+.rb_3_3 .navcontainer ul ul,
+.rb_3_4 .navcontainer ul ul,
+.rb_3_5 .navcontainer ul ul,
+.rb_3_6 .navcontainer ul ul,
+.rb_3_7 .navcontainer ul ul,
+.rb_3_8 .navcontainer ul ul,
+.rb_3_9 .navcontainer ul ul,
+.rb_3_10 .navcontainer ul ul,
+.rb_3_11 .navcontainer ul ul,
+.rb_3_12 .navcontainer ul ul,
+.rb_3_13 .navcontainer ul ul,
+.rb_3_14 .navcontainer ul ul,
+.rb_3_15 .navcontainer ul ul,
+.rb_3_16 .navcontainer ul ul,
+.rb_3_17 .navcontainer ul ul,
+.rb_3_18 .navcontainer ul ul{
+left: -6px;
+}
+
+/*4. Rounded glossy */
+.rb_4_ .navcontainer ul ul,
+.rb_4_1 .navcontainer ul ul {
+background-image: url("4_1_m.png");
+_background-image: url("4_1_m.gif");
+}.rb_4_2 .navcontainer ul ul {
+background-image: url("4_2_m.png");
+_background-image: url("4_2_m.gif.png");
+}.rb_4_3 .navcontainer ul ul {
+background-image: url("4_3_m.png");
+_background-image: url("4_3_m.gif");
+}.rb_4_4 .navcontainer ul ul {
+background-image: url("4_4_m.png");
+_background-image: url("4_4_m.gif");
+}.rb_4_5 .navcontainer ul ul {
+background-image: url("4_5_m.png");
+_background-image: url("4_5_m.gif");
+}.rb_4_6 .navcontainer ul ul {
+background-image: url("4_6_m.jpg");
+_background-image: url("4_6_m.jpg");
+}.rb_4_7 .navcontainer ul ul {
+background-image: url("4_7_m.jpg");
+_background-image: url("4_7_m.jpg");
+}.rb_4_8 .navcontainer ul ul {
+background-image: url("4_8_m.jpg");
+_background-image: url("4_8_m.jpg");
+}.rb_4_9 .navcontainer ul ul {
+background-image: url("4_9_m.jpg");
+_background-image: url("4_9_m.jpg");
+}.rb_4_10 .navcontainer ul ul {
+background-image: url("4_10_m.png");
+_background-image: url("4_10_m.gif");
+}.rb_4_11 .navcontainer ul ul {
+background-image: url("4_11_m.png");
+_background-image: url("4_11_m.gif");
+}.rb_4_12 .navcontainer ul ul {
+background-image: url("4_12_m.png");
+_background-image: url("4_12_m.gif");
+}.rb_4_13 .navcontainer ul ul {
+background-image: url("4_13_m.png");
+_background-image: url("4_13_m.gif");
+}.rb_4_14 .navcontainer ul ul {
+background-image: url("4_14_m.png");
+_background-image: url("4_14_m.gif");
+}.rb_4_15 .navcontainer ul ul {
+background-image: url("4_15_m.png");
+_background-image: url("4_15_m.gif");
+}.rb_4_16 .navcontainer ul ul {
+background-image: url("4_16_m.png");
+_background-image: url("4_16_m.gif");
+}.rb_4_17 .navcontainer ul ul {
+background-image: url("4_17_m.png");
+_background-image: url("4_17_m.gif");
+}.rb_4_18 .navcontainer ul ul {
+background-image: url("4_18_m.png");
+_background-image: url("http://www.sint.nl/rw_common/themes/blocksbox/css/add_to_assets/4_18_m.gif");
+}
+.rb_4_1 .navcontainer,
+.rb_4_2 .navcontainer,
+.rb_4_3 .navcontainer,
+.rb_4_4 .navcontainer,
+.rb_4_5 .navcontainer,
+.rb_4_6 .navcontainer,
+.rb_4_7 .navcontainer,
+.rb_4_8 .navcontainer,
+.rb_4_9 .navcontainer,
+.rb_4_10 .navcontainer,
+.rb_4_11 .navcontainer,
+.rb_4_12 .navcontainer,
+.rb_4_13 .navcontainer,
+.rb_4_14 .navcontainer,
+.rb_4_15 .navcontainer,
+.rb_4_16 .navcontainer,
+.rb_4_17 .navcontainer,
+.rb_4_18 .navcontainer {
+	margin: 10px 0 0 14px;
+}
+/*osx box*/
+.rb_5_ .navcontainer ul ul,
+.rb_5_1 .navcontainer ul ul,
+.rb_5_2 .navcontainer ul ul,
+.rb_5_3 .navcontainer ul ul,
+.rb_5_4 .navcontainer ul ul,
+.rb_5_5 .navcontainer ul ul,
+.rb_5_6 .navcontainer ul ul,
+.rb_5_7 .navcontainer ul ul,
+.rb_5_8 .navcontainer ul ul,
+.rb_5_9 .navcontainer ul ul,
+.rb_5_10 .navcontainer ul ul,
+.rb_5_11 .navcontainer ul ul,
+.rb_5_12 .navcontainer ul ul,
+.rb_5_13 .navcontainer ul ul,
+.rb_5_14 .navcontainer ul ul,
+.rb_5_15 .navcontainer ul ul,
+.rb_5_16 .navcontainer ul ul,
+.rb_5_17 .navcontainer ul ul,
+.rb_5_18 .navcontainer ul ul{
+top: 30px;
+background-image: url("5_1_m.png");
+_background-image: url("5_1_m.gif");
+}
